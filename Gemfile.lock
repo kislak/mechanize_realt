@@ -4,6 +4,7 @@ GEM
     coderay (1.1.1)
     domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
+    htmltools (1.10)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     imgkit (1.6.1)
@@ -30,6 +31,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    rubyful_soup (1.0.4)
+      htmltools (> 0.0.0)
     slop (3.6.0)
     unf (0.1.4)
       unf_ext
@@ -44,6 +47,7 @@ DEPENDENCIES
   imgkit
   mechanize
   pry
+  rubyful_soup
   wkhtmltoimage-binary
 
 BUNDLED WITH
